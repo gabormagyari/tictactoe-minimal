@@ -2,8 +2,7 @@
 My solution of the classic tic tac toe game using the least characters possible
 
 Annotated code:
-<pre>
-<code>
+```javascript
 
 u=(n,e)=>{					// update game state method
 
@@ -40,5 +39,4 @@ k=document,							// used more than once
 		e=k.createElement('div'),
 		e.onclick=e=>u(i,e))})		// add update handler
 
-</code>
-</pre>
+```
