@@ -27,7 +27,7 @@ u=(n,e)=>					// update game state method
 
 	&&						// if so..
 
-	(s[p]|=(1<<n),			// update board state
+	(s[p]|=1<<n,			// update board state
 
 	v[d](c=>				// forEach winning board state
 
